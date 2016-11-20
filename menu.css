@@ -1,0 +1,193 @@
+html {
+  height: 100%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 200%;
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  padding:0;
+  font-size: 14px;
+}
+.container-fluid > header {
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+.container-fluid > header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+    color: #89D0F0;
+    
+}
+
+.container-fluid > header h1 {
+font-family: 'Gloria Hallelujah', cursive;
+	color:#000;
+	font-size: 2em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 400;
+}
+
+.container-fluid > header span {
+    color: #89D0F0;
+    display: block;
+    font-size: 60%;
+    font-weight: 300;
+    padding: 1em 0 0.6em 0.1em;
+}
+.container-fluid .text {
+    text-align:center;
+	padding:1em 0;
+	font-size:1.5em;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* Effect 1: Brackets */
+
+.cc-rockmenu {
+	color:fff;
+	text-align:center;
+}
+
+.cc-rockmenu .rolling {
+  display: inline-block;
+  cursor:pointer;
+  width: 52px;
+  height: 52px;
+  text-align:left;
+  overflow: hidden;
+  border-radius: 26px;
+  background: #85A5CC;
+  transition: all 0.3s ease-out;
+  white-space: nowrap;
+}
+.cc-rockmenu .rolling:hover {
+  width: 312px;
+}
+.cc-rockmenu .rolling .rolling_icon {
+  float:left;
+  z-index: 9;
+  display: inline-block;
+  width: 52px;
+/*  background: #9091B9;*/
+  background: #F4C2C3;
+  height: 52px;
+  border-radius: 26px;
+  box-sizing: border-box;
+  margin: 0 10px 0 0;
+}
+.cc-rockmenu .rolling .rolling_icon:hover .rolling {
+  width: 312px;
+}
+
+
+
+.cc-rockmenu .rolling i.fa {
+    font-size: 24px;
+    padding: 15px;
+}
+.cc-rockmenu .rolling span {
+    display: block;
+    font-weight: bold;
+    padding: 4px 0;
+}
+.cc-rockmenu .rolling li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.cc-rockmenu .rolling li a {
+    color: #89D0F0;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.cc-rockmenu .rolling li a:hover{
+	color:#fff;	
+}
+
+.cc-rockmenu .rolling li a:before{
+   content:"\00bb";
+}
+
+.cc-rockmenu .rolling p {
+	margin:0;
+}
+
+.cc-rockmenu .rolling input[type="text"] {
+	width: 175px;
+    background: #FFFFFF none repeat scroll 0 0;
+    border: medium none;
+    height: 35px;
+    margin: 9px 0;
+    padding: 10px;
+	color:#fff;
+}
+.cc-rockmenu .rolling input[type="submit"] {
+    background: #85A5CC none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    padding: 9px;
+}
+
+/* Rolling Animated Menu*/
+.rollingAnimated ul {
+  padding:0;
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.rollingAnimated ul li {
+  float: left;
+  list-style: none;
+  margin: 0 25px 0 0;
+}
+
+.rollingAnimated a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 65px;
+    margin-top: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s cubic-bezier(0.1, 0.1, 0.5, 1.4) 0s;
+}
+
+.rollingAnimated a:hover {
+  margin-top: -65px;
+}
+
+.rollingAnimated a:after {
+  content: attr(data-text);
+  display: block;
+  color: #A0CAF0;
+}
