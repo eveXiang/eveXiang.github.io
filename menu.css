@@ -84,11 +84,11 @@ nav a:focus {
   overflow: hidden;
   border-radius: 26px;
   background: #85A5CC;
-  transition: all 0.3s ease-out;
+  transition: all 0.9s ease-out;
   white-space: nowrap;
 }
 .cc-rockmenu .rolling:hover {
-  width: 312px;
+  width: 200px;
 }
 .cc-rockmenu .rolling .rolling_icon {
   float:left;
@@ -103,7 +103,7 @@ nav a:focus {
   margin: 0 10px 0 0;
 }
 .cc-rockmenu .rolling .rolling_icon:hover .rolling {
-  width: 312px;
+  width: 250px;
 }
 
 
@@ -139,7 +139,7 @@ nav a:focus {
 }
 
 .cc-rockmenu .rolling input[type="text"] {
-	width: 175px;
+	width: 100px;
     background: #FFFFFF none repeat scroll 0 0;
     border: medium none;
     height: 35px;
